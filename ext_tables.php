@@ -11,4 +11,4 @@ defined('TYPO3_MODE') || die();
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPlugin([
     'LLL:EXT:tscobj/Resources/Private/Language/locallang_db.xlf:tt_content.list_type_pi1',
     'tscobj_pi1'
-], 'list_type');
+], 'list_type', 'tscobj');
